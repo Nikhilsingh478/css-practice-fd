@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gilroy';
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 50%;
+    width: 100%;
+}
+
+nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+    padding: 0 30px;
+}
+
+nav h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+nav h4:hover{
+    text-decoration: underline;
+}
+
+
+
+nav i{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 600;
+    border-radius:50% ;
+}
+
+#center{
+    height: 45%;
+    width: 100%;
+    padding: 40px 50px;
+    
+}
+
+#center h1{
+    font-size: 80px;
+    line-height: 90px;
+    font-weight: 500;
+}
+
+#center-in{
+    margin-top: 50px;
+    height: 200px;
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+}
+
+#center-in p{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+#right{
+    width: 20%;
+    /* margin-bottom: 60px; */
+}
+
+.elem{
+    padding: 18px 0;
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.elem i{
+    font-size: 25px;
+    font-weight: 500;
+    opacity: 0;
+}
+
+.elem:hover i{
+    opacity: 1;
+}
+
+.elem:hover a{
+    text-decoration: underline;
+}
+
+.elem:hover{
+    background-color: rgb(228, 234, 239);
+    transition: all 0.3s ease-in;
+}
+
+.elem a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    /* margin-bottom: 50px; */
+}
+
+#bottom{
+    height: 50%;
+    width: 100%;
+    background-color: aquamarine;
+    background-image: url('https://img.freepik.com/premium-photo/handsome-young-man-black-suit-dark-background_374761-3170.jpg');
+    background-position: 0 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 220px;
+}
+
